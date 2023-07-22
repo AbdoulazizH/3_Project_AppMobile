@@ -1,0 +1,81 @@
+body {
+    text-align: center;
+    /* background-color: #fff9f9; */
+    background-color: #f2f2f2;
+
+}
+
+h1 {
+    padding: 20px;
+    margin-top: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+    background-color: #5a5757; 
+    color: white;
+}
+
+form {
+    margin-top: 20px;
+    display: inline-block;
+    text-align: left;
+}
+
+fieldset {
+    border: none;
+}
+
+legend {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 15px;
+    font-size: 16px; /* Augmente la taille de police selon vos préférences */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 40px;
+    color: black;
+
+}
+
+input[type="number"] {
+    padding: 14px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 320px; 
+
+}
+
+input[type="button"] {
+    padding: 10px 25px;
+    background-color: #6fff00;
+    color: rgb(29, 27, 27);
+    border: none;
+    border-radius: 3px;
+    font-size: 19px;
+    cursor: pointer;
+    color: black;
+
+}
+
+#resultat {
+    margin-top: 20px;
+    text-align: center; 
+    font-size: 10px;
+    color: black;
+
+
+}
+
+
+.foo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #5a5757; 
+    text-align: center;
+    padding: 10px;
+    color: white;
+}

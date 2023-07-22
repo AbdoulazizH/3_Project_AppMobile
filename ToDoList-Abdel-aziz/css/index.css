@@ -1,0 +1,42 @@
+.terminer{
+    text-decoration: line-through;
+    color:rgb(92, 92, 248);
+}
+
+/* 
+.ui-content{
+    text-align: center;
+    background-color: antiquewhite;
+}
+.ui-content .tache{
+    color: blueviolet;
+}
+
+.taches-terminees{
+    color: aliceblue;
+    text-align: center;
+    background: slategrey;
+} */
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* 
+.ui-content {
+    background-color: rgb(51, 51, 7);
+} */
+
+form label,
+    #taches-en-cours label,
+    #taches-terminees label {
+    font-size: 1.2em;
+    background-color: rgb(173, 204, 142);
+    border-radius: 2%;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(216, 214, 214, 0.5); /* Ajoute une ombre */
+}

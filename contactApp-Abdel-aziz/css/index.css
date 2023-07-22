@@ -1,0 +1,23 @@
+.bod{
+    background-color: aliceblue;
+}
+
+#ajout{
+    color: rgb(237, 95, 0);
+    text-align: center;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.list{
+    background-color: rgb(32, 143, 235);
+    border-radius: 4%;
+    box-shadow: 0px 1px 1px #333;
+}
+
+
+img{
+    border-radius: 30px;
+    box-shadow: 10em;
+    /* background-color: rgb(114, 114, 118); */
+}

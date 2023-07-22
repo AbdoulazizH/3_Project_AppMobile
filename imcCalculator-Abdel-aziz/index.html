@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="color-scheme" content="light dark">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/index.js"></script>
+        <title>IMC CALCULATOR </title>
+    </head>
+
+    <body>
+        <h1>IMC Calculator</h1>
+        <form>
+            <fieldset>
+                <legend>IMC Calculator</legend>
+                <label for="poids">Poids (en kg)</label>
+                <input type="number" id="poids">
+                <label for="taille">Taille (en m)</label>
+                <input type="number" id="taille">
+                <input type="button" value="Calculer" onclick="calculerIMC()">
+            </fieldset>
+            <fieldset id="resultat" hidden>
+                <legend>Interprétation</legend>
+                <label>
+                    Votre IMC est de 15.5. <hr>
+                    Vous êtes en état de dénutrition.
+                </label>
+            </fieldset>
+        </form>
+
+                <!--LE PIED DE LA PAGE -->
+    <footer>
+        <div class="foo" role="main" data-role="footer" data-position="fixed">
+            <h2>Abdel-aziz Harane &copy 2023</h2>
+        </div>
+    </footer>
+    </body>
+    
+</html>
